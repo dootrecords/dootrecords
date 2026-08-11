@@ -1,10 +1,13 @@
 body{
 
-    background: #FCFCFC;
+    background: #F8F8F0;
     color: #8f0000;
     font-family: "Arsenal", sans-serif;
     text-align: center;
     min-height: 100vh;
+    background-image:
+        radial-gradient(rgb(255, 234, 234) 2px, transparent 1px);
+    background-size: 8px 8px;
 
     display: flex;
     flex-direction: column;
@@ -65,7 +68,6 @@ nav button:hover{
     overflow: auto;
 }
 
-
 n{
 
     width: min(700px,90%);
@@ -111,6 +113,15 @@ img{
 
 }
 
+.artistbox{
+    border-radius: 100px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    clear: both;
+}
 
 footer{
 
@@ -122,4 +133,65 @@ footer{
 
     padding: 18px;
 
+}
+
+
+.banner {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    height: 140px;
+    margin: 30px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 45px;
+
+    border-radius: 70px;
+
+    /* Subtle dot pattern */
+    background-image:
+        radial-gradient(rgba(255,255,255,.12) 1px, transparent 1px);
+    background-size: 8px 8px;
+
+    /* Shadow */
+    box-shadow: 0 8px 18px rgba(0,0,0,.18);
+
+    overflow: hidden;
+}
+
+
+.banner img {
+    height: 16rem;
+    width: auto;
+    margin: 20px;
+    display: inline;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .banner {
+        height: 100px;
+        padding: 0 25px;
+    }
+
+    .banner img {
+        height: 110%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .banner {
+        height: 85px;
+        padding: 0 15px;
+    }
+
+    .banner img {
+        height: 95%;
+    }
 }
