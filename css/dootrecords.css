@@ -6,7 +6,7 @@ body{
     text-align: center;
     min-height: 100vh;
     background-image:
-        radial-gradient(rgb(255, 234, 234) 2px, transparent 1px);
+        radial-gradient(rgb(253, 241, 241) 2px, transparent 1px);
     background-size: 8px 8px;
 
     display: flex;
@@ -153,8 +153,11 @@ footer{
 
     /* Subtle dot pattern */
     background-image:
-        radial-gradient(rgba(255,255,255,.12) 1px, transparent 1px);
+        radial-gradient(rgba(255,255,255,.12) 1px, transparent 1px); 
+        
+        
     background-size: 8px 8px;
+    
 
     /* Shadow */
     box-shadow: 0 8px 18px rgba(0,0,0,.18);
