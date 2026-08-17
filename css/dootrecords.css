@@ -165,6 +165,34 @@ footer{
     overflow: hidden;
 }
 
+.YTbox {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    margin: 30px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 45px;
+
+    border-radius: 30px;
+
+    /* Subtle dot pattern */
+    background-image:
+        radial-gradient(rgba(255,255,255,.12) 1px, transparent 1px); 
+        
+        
+    background-size: 8px 8px;
+    
+
+    /* Shadow */
+    box-shadow: 0 8px 18px rgba(0,0,0,.18);
+
+    overflow: hidden;
+}
 
 .banner img {
     height: 16rem;
