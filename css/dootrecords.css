@@ -1,13 +1,13 @@
 body{
 
-    background: #F8F8F0;
+    background: #f5f3df;
     color: #8f0000;
     font-family: "Arsenal", sans-serif;
     text-align: center;
     min-height: 100vh;
     background-image:
-        radial-gradient(rgb(253, 241, 241) 2px, transparent 1px);
-    background-size: 8px 8px;
+        radial-gradient(rgb(229, 231, 201) 1.6px, transparent 1px);
+    background-size: 12px 12px;
 
     display: flex;
     flex-direction: column;
@@ -149,7 +149,7 @@ footer{
 
     padding: 0 45px;
 
-    border-radius: 70px;
+    border-radius: 30px;
 
     /* Subtle dot pattern */
     background-image:
