@@ -165,6 +165,7 @@ footer{
     overflow: hidden;
 }
 
+
 .YTbox {
     position: relative;
     width: 90%;
@@ -194,6 +195,14 @@ footer{
     overflow: hidden;
 }
 
+.vidframe {
+    width:  900px;
+    height: 506px;
+    margin: 10px;
+    border-radius: 30px
+}
+
+
 .banner img {
     height: 16rem;
     width: auto;
@@ -213,6 +222,20 @@ footer{
     .banner img {
         height: 110%;
     }
+
+    .YTbox {
+
+        width:auto;
+    }
+
+    .YTbox img {
+        width: auto;
+    }
+
+    .vidframe {
+        width: auto;
+        height: auto;
+    }
 }
 
 @media (max-width: 500px) {
@@ -224,5 +247,19 @@ footer{
 
     .banner img {
         height: 95%;
+    }
+
+    .YTbox {
+
+        width:auto;
+    }
+
+    .YTbox img {
+        width: auto;
+    }
+
+    .vidframe {
+        width: auto;
+        height: auto;
     }
 }
