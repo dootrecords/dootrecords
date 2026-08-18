@@ -229,12 +229,12 @@ footer{
     }
 
     .YTbox img {
-        width: auto;
+        width: 550px;
     }
 
     .vidframe {
-        width: auto;
-        height: auto;
+        width: 550px;
+        height: 309px;
     }
 }
 
@@ -255,11 +255,11 @@ footer{
     }
 
     .YTbox img {
-        width: auto;
+        width: 360px;
     }
 
     .vidframe {
-        width: auto;
-        height: auto;
+        width: 360px;
+        height: 202px;
     }
 }
