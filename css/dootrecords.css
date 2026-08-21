@@ -224,18 +224,18 @@ footer{
     }
 
     .YTbox {
-        height:auto;
+        height: 400px;
         width:auto;
     }
 
     .YTbox img {
-        height: 110px;
-        width: 422px;
+        height: auto;
+        max-width: 510px;
     }
 
     .vidframe {
-        width: 360px;
-        height: 202px;
+        width: 500px;
+        height: 281px;
     }
 }
 
@@ -247,21 +247,24 @@ footer{
     }
 
     .banner img {
-        height: 130%;
+        height: 140%;
     }
 
     .YTbox {
-        height:auto;
+        height: 300px;
         width:auto;
     }
 
     .YTbox img {
-        height: 100px;
-        width: 384px;
+        height: auto;
+        max-width: 380px;
+        padding-top: 10px;
     }
 
     .vidframe {
-        width: 280px;
-        height: 158px;
+        width: 400px;
+        height: 225px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 }
