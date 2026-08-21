@@ -244,6 +244,7 @@ footer{
     .banner {
         height: 80px;
         padding: 0 15px;
+        max-width: 375px;
     }
 
     .banner img {
@@ -252,7 +253,7 @@ footer{
 
     .YTbox {
         height: 225px;
-        width:auto;
+        width: 310px;
     }
 
     .YTbox img {
