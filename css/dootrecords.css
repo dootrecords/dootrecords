@@ -224,12 +224,13 @@ footer{
     }
 
     .YTbox {
-
+        height:auto;
         width:auto;
     }
 
     .YTbox img {
-        width: 550px;
+        height: 110px;
+        width: 422px;
     }
 
     .vidframe {
@@ -246,16 +247,17 @@ footer{
     }
 
     .banner img {
-        height: 150%;
+        height: 140%;
     }
 
     .YTbox {
-
+        height:auto;
         width:auto;
     }
 
     .YTbox img {
-        width: 280px;
+        height: 100px;
+        width: 384px;
     }
 
     .vidframe {
