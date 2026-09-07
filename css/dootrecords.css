@@ -323,7 +323,7 @@ a {
     .YTbox {
         height: 300px;
         max-width: 375px;
-        margin-top: 10px;
+        padding-top: 10px;
     }
 
     .YTbox img {
