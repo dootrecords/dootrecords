@@ -252,6 +252,10 @@ a {
     text-decoration: none;
 }
 
+#countBanner{
+    height: 450px;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
@@ -298,8 +302,8 @@ a {
             font-size: 24px;
     }
 
-    .countdownBanner{
-        height: 300px;
+    #countBanner{
+        height: 450px;
         width:auto;
     }
 }
