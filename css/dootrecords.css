@@ -300,12 +300,12 @@ a {
 
     .YTbox {
         height: 260px;
-        width: 310px;
+        max-width: 375px;
     }
 
     .YTbox img {
         height: auto;
-        max-width: 350px;
+        max-width: 100px;
         padding-top: 10px;
     }
 
