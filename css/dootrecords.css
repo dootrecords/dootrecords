@@ -164,6 +164,35 @@ footer{
     overflow: hidden;
 }
 
+.countdownBanner {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    height: 140px;
+    margin: 30px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 45px;
+
+    border-radius: 30px;
+
+    /* Subtle dot pattern */
+    background-image:
+        radial-gradient(rgba(255,255,255,.12) 1px, transparent 1px); 
+        
+        
+    background-size: 8px 8px;
+    
+
+    /* Shadow */
+    box-shadow: 0 8px 18px rgba(0,0,0,.18);
+
+    overflow: hidden;
+}
+
 
 .YTbox {
     position: relative;
@@ -209,7 +238,12 @@ footer{
     display: inline;
 }
 
-
+.countdownBanner img {
+    height: 16rem;
+    width: auto;
+    margin: 20px;
+    display: inline;
+}
 
 #demo {
     display: flex;
@@ -292,6 +326,11 @@ a {
     .countdown-unit small {
             font-size: 24px;
     }
+
+    .countdownBanner{
+        height: 300px;
+        width:auto;
+    }
 }
 
 @media (max-width: 500px) {
@@ -315,6 +354,7 @@ a {
         height: auto;
         max-width: 150px;
         padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .vidframe {
@@ -325,7 +365,7 @@ a {
     }
 
     #countdown {
-        height: 260px;
+        height: 200px;
         width:auto;
     }
 
@@ -341,6 +381,11 @@ a {
 
     .countdown-unit small {
             font-size: 8px;
+    }
+
+    .countdownBanner{
+        height: 200px;
+        width:auto;
     }
 
 }
