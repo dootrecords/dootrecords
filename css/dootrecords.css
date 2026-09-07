@@ -284,6 +284,14 @@ a {
         height: auto;
         max-width: 400px;
     }
+
+    .countdown-unit span {
+        font-size: 90px;
+    }
+
+    .countdown-unit small {
+            font-size: 24px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -299,13 +307,13 @@ a {
     }
 
     .YTbox {
-        height: 260px;
+        height: 350px;
         max-width: 375px;
     }
 
     .YTbox img {
         height: auto;
-        max-width: 100px;
+        max-width: 150px;
         padding-top: 10px;
     }
 
@@ -323,7 +331,16 @@ a {
 
     #countdown img {
         height: auto;
-        max-width: 260px;
+        max-width: 300px;
+        margin-top: -30px;
+    }
+
+    .countdown-unit span {
+        font-size: 50px;
+    }
+
+    .countdown-unit small {
+            font-size: 12px;
     }
 
 }
