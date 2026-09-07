@@ -99,11 +99,10 @@ h1{
 }
 
 h2{
-
-    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
     font-weight: 400;
     text-align: center;
-    padding-top: 5em;
 }
 
 img{
@@ -210,6 +209,44 @@ footer{
     display: inline;
 }
 
+
+
+#demo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.countdown-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fafaf9;
+}
+
+.countdown-unit span {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.countdown-unit small {
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
@@ -269,3 +306,5 @@ footer{
         margin-right: -30px;
     }
 }
+
+

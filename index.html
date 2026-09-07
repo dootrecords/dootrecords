@@ -27,6 +27,89 @@
  
     <h1>An Independent Record Label from Newcastle NSW</h1>
 
+
+
+
+
+<a href="https://gyro.to/Justalittlemoretime">
+<div class="banner" style="background: #277cca; background-image: radial-gradient(rgba(121, 63, 63, 0.116) 1px, transparent 1px);
+    background-size: 8px 8px; height: 450px; align-items: center; justify-content: center; ">
+
+    <div id="countdown" style="align-items: center; justify-content: center;">
+
+        <img src="images\jalmt til jalmt.png" style="margin-bottom: -10px; margin-top: -8px;">
+
+        <div id="demo">
+
+            <div class="countdown-unit">
+                <span id="days" style="text-decoration: none;">00</span>
+                <small>DAYS</small>
+            </div>
+
+            <div class="countdown-unit">
+                <span id="hours">00</span>
+                <small>HOURS</small>
+            </div>
+
+            <div class="countdown-unit">
+                <span id="minutes">00</span>
+                <small>MINUTES</small>
+            </div>
+
+            <div class="countdown-unit">
+                <span id="seconds">00</span>
+                <small>SECONDS</small>
+            </div>
+
+    </div>
+
+</div>
+
+</div>
+</a>
+
+<script>
+    // Set the date we're counting down to
+        var countDownDate = new Date("Sep 25, 2026 00:00:00").getTime();
+
+    // Update the count down every 1 second
+        var x = setInterval(function() {
+
+    // Get today's date and time
+        var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="demo"
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+        clearInterval(x);
+document.getElementById("days").innerHTML = days;
+document.getElementById("hours").innerHTML = hours;
+document.getElementById("minutes").innerHTML = minutes;
+document.getElementById("seconds").innerHTML = seconds;
+    }
+    }, 1000);
+</script>
+
+
+
+
+
+
+
     <div class="YTbox" style="background: #fafaf9; background-image: radial-gradient(rgba(85, 85, 85, 0.082) 1px, transparent 1px);
         background-size: 8px 8px; display: block;">
             <img src="images/ftrdvid.png" alt="Featured Video" style="width:600px; margin-top:-30px; margin-bottom:-30px;">
@@ -41,8 +124,8 @@
         </div>
     </a>
 
-    <a href="https://www.youtube.com/playlist?list=PLBaNUhFou_7M">
-        <div class="banner" style="background: #77ff95; background-image: radial-gradient(rgba(0, 153, 13, 0.158) 1px, transparent 1px);
+    <a href="https://www.youtube.com/watch?v=rGWKKNBO4Q0&list=PLBaNUhFou_7M&index=1">
+        <div class="banner" style="background: #5df57e; background-image: radial-gradient(rgba(0, 153, 13, 0.158) 1px, transparent 1px);
         background-size: 8px 8px;">
             <img src="images/tax logo.png" alt="Tax Return (band)" style="margin-left:-15px;">
             <img src="images/tax photo.png" alt="Photo of Tax Return (band)" style="margin-left:auto;">
