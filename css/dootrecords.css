@@ -276,13 +276,13 @@ a {
     }
 
     #countdown {
-        height: 400px;
+        height: 350px;
         width:auto;
     }
 
     #countdown img {
         height: auto;
-        max-width: 510px;
+        max-width: 400px;
     }
 }
 
@@ -323,7 +323,7 @@ a {
 
     #countdown img {
         height: auto;
-        max-width: 350px;
+        max-width: 260px;
     }
 
 }
