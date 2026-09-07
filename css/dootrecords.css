@@ -307,7 +307,7 @@ a {
     }
 
     .YTbox {
-        height: 350px;
+        height: 400px;
         max-width: 375px;
     }
 
@@ -336,11 +336,11 @@ a {
     }
 
     .countdown-unit span {
-        font-size: 50px;
+        font-size: 25px;
     }
 
     .countdown-unit small {
-            font-size: 12px;
+            font-size: 8px;
     }
 
 }
